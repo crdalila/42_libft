@@ -1,57 +1,55 @@
 # 42_libft
 Librería que contiene funciones básicas (y no tan básicas) de C para utilizar en otros proyectos más complejos.
 
-## Índice
-- [CREAR UNA Libreria en C](#crear-una-libreria-en-c)
-  - [Índice](#índice)
-    - [libft.h](#libft)
-    - [Makefile](#makefile)
-    ### Primera Parte Obligatoria
-      - [`ft_strlen`](#ft_strlen)
-      - [`ft_isascii`](#ft_isascii)
-      - [`ft_isdigit`](#ft_isdigit)
-      - [`ft_isalpha`](#ft_isalpha)
-      - [`ft_isprint`](#ft_isprint)
-      - [`ft_isalnum`](#ft_isalnum)
-      - [`ft_tolower`](#ft_tolower)
-      - [`ft_toupper`](#ft_toupper)
-      - [`ft_strlcpy`](#ft_strlcpy)
-      - [`ft_bzero`](#ft_bzero)
-      - [`ft_strncmp`](#ft_strncmp)
-      - [`ft_memset`](#ft_memset)
-      - [`ft_memcpy`](#ft_memcpy)
-      - [`ft_memccpy`](#ft_memccpy)
-      - [`ft_atoi`](#ft_atoi)
-      - [`ft_memchar`](#ft_memchar)
-      - [`ft_memmove`](#ft_memmove)
-      - [`ft_memcmp`](#ft_memcmp)
-      - [`ft_strchr` y `ft_strrchr`](#ft_strchr-y-ft_strrchr)
-- [Implementación de la función `memmove` en C](#implementación-de-la-función-memmove-en-c)
-- [Verificación de Superposición de Regiones de Memoria](#verificación-de-superposición-de-regiones-de-memoria)
-  - [`ft_memcmp`](#ft_memcmp)
-  - [`ft_strnstr`](#ft_strnstr)
-  - [`ft_calloc`](#ft_calloc)
-  - [`ft_strdup`](#ft_strdup)
-    ### Segunda Parte Obligatoria
-    - [`ft_substr`](#ft_substr)
-    - [`ft_putstr_fd`](#ft_putstr_fd)
-    - [`ft_putchar_fd`](#ft_putchar_fd)
-    - [`ft_putendl_fd`](#ft_putendl_fd)
-    - [`ft_putnbr_fd`](#ft_putnbr_fd)
-    - [`ft_strjoin`](#ft_strjoin)
-    - [`ft_strtrim`](#ft_strtrim)
-    - [`ft_strsplit`](#ft_strsplit)
-    - [`ft_itoa`](#ft_itoa)
-    - [`ft_strmapi`](#ft_strmapi)
-    - [`ft_striteri`](#ft_striteri)
-    ### Bonus Linked List
-    - [Linked list](#declarar-una-linked-list)
-    - [Mis problemas con las listas](#mis-idas-y-venidas-con-las-listas)
-      - [`ft_lstnew`](#ft_lstnew)
-      - [`ft_lstadd_front`](#ft_lstadd_front)
-      - [`ft_lstsize`](#ft_lstsize)
-      - [`ft_lstlast`](#ft_lstlast)
-      - [`ft_lstdelone`](#ft_lstdelone)
-      - [`ft_lstclear`](#ft_lstclear) 
-      - [`ft_lstiter`](#ft_lstiter)
-      - [`ft_lstmap`](#ft_lstmap)
+## Primera parte
+  Reproducir el comportamiento de funciones ya existentes en la librería libc:
+      - ft_strlen
+      - ft_isascii
+      - ft_isdigit
+      - ft_isalpha
+      - ft_isprint
+      - ft_isalnum
+      - ft_tolower
+      - ft_toupper
+      - ft_strlcpy
+      - ft_bzero
+      - ft_strncmp
+      - ft_memset
+      - ft_memcpy
+      - ft_memccpy
+      - ft_atoi
+      - ft_memchar
+      - ft_memmove
+      - ft_memcmp
+      - ft_strchr
+      - ft_strrchr
+      - ft_memcmp
+      - ft_strnstr
+      - ft_calloc
+      - ft_strdup
+  
+## Segunda parte
+  Reproducir el comportamiento de funciones que no existen pero que son útiles de cara a proyectos más complejos:
+      - ft_substr
+      - ft_putstr_fd
+      - ft_putchar_fd
+      - ft_putendl_fd
+      - ft_putnbr_fd
+      - ft_strjoin
+      - ft_strtrim
+      - ft_strsplit
+      - ft_itoa
+      - ft_strmapi
+      - ft_striteri
+
+    
+  ## Bonus
+    Funciones de manipulación de listas:
+      - ft_lstnew
+      - ft_lstadd_front
+      - ft_lstsize
+      - ft_lstlast
+      - ft_lstdelone
+      - ft_lstclear
+      - ft_lstiter
+      - ft_lstmap
