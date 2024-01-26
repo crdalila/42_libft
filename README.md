@@ -4,17 +4,29 @@ Librería que contiene funciones básicas (y no tan básicas) de C para utilizar
 ## Primera parte
   Reproducir el comportamiento de funciones ya existentes en la librería libc:
   - ft_strlen
+    -- Calcular la longitud de un string
   - ft_isascii
+    -- Verificar si un caracter es ascii
   - ft_isdigit
+    -- Verificar si un caracter es dígito
   - ft_isalpha
+    -- Verificar si un caracter es alfabético
   - ft_isprint
+    -- Verificar si un caracter es imprimible
   - ft_isalnum
+    -- Verificar si un caracter es alfanumérico
   - ft_tolower
+    -- Convertir un caracter mayúscula a minúscula
   - ft_toupper
+    -- Convertir un caracter minúscula a mayúscula
   - ft_strlcpy
+    -- Copiar n posiciones de un string
   - ft_bzero
+    -- Establecer a cero los primeros n bytes de un bloque de memoria
   - ft_strncmp
+    -- Comparar dos strings los primeros n caracteres
   - ft_memset
+    -- 
   - ft_memcpy
   - ft_memccpy
   - ft_atoi
