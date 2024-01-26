@@ -43,13 +43,13 @@ Librería que contiene funciones básicas (y no tan básicas) de C para utilizar
   - ft_striteri
 
     
-  ## Bonus
-    Funciones de manipulación de listas:
-    - ft_lstnew
-    - ft_lstadd_front
-    - ft_lstsize
-    - ft_lstlast
-    - ft_lstdelone
-    - ft_lstclear
-    - ft_lstiter
-    - ft_lstmap
+## Bonus
+  Funciones de manipulación de listas:
+  - ft_lstnew
+  - ft_lstadd_front
+  - ft_lstsize
+  - ft_lstlast
+  - ft_lstdelone
+  - ft_lstclear
+  - ft_lstiter
+  - ft_lstmap
